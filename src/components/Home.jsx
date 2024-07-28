@@ -4,6 +4,7 @@ import {AiFillGoogleCircle,
     AiFillAmazonCircle,
     AiFillYoutube,
     AiFillInstagram} from  "react-icons/ai"
+import Footer from './Footer';
 
 
 
@@ -44,56 +45,13 @@ const Home = () => {
         
          
          
-         <div className="home4" id="brands" >
-         <div>
-
-         <h1>Brands</h1>
-
-         <article>
-
-         <div
-         style={{animationDelay:"0.3s"}}
-         >
-            <AiFillGoogleCircle/>
-            <p>Google</p>
-
-         </div>
-
-         <div
-         style={{animationDelay:"0.5s"}}
-         >
-            <AiFillAmazonCircle/>
-            <p>Amazon</p>
-
-         </div>
-
-         <div
-         style={{animationDelay:"0.7s"}}
-         >
-            <AiFillInstagram/>
-            <p>Instagram</p>
-
-         </div>
-
-         <div
-         style={{animationDelay:"0.1s"}}
-         >
-            <AiFillYoutube/>
-            <p>Youtube</p>
-
-         </div>
-
-         
-
-         </article>
-
-         </div>
-
-         </div>
+         <Footer/>
     </>
   );
     
   
 };
+
+
 
 export default Home
